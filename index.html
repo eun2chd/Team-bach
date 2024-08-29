@@ -21,13 +21,31 @@
             <li><a href="">홈</a></li>
             <li><a href="">벤픽 참고</a></li>
             <li><a href="">내전기록</a></li>
+            <li><a href="">신규 사용자 추가</a></li>
+            <li><a href=""></a></li>
         </ul>
     </nav>
 
     <div class = "container">
         <!-- 사이드 멤버별 현황 DB데이터 뽑기 -->
         <aside>
-            <h2>멤버 정보 및 현황 [ 10 명 ]</h2>
+        <div class = "member-men">
+            멤버 정보 및 현황 [ 10 명 ]
+        </div>
+        <!-- 사용자 검색 및 필터영역 -->
+        <div class = "member-cat">
+                <input type="text" placeholder="사용자이름 및 닉네임 검색">
+                <img src="/img/search.png" alt="">
+            <select name="lineValue" id="">
+                <option value="top">탑</option>
+                <option value="jg">정글</option>
+                <option value="mid">미드</option>
+                <option value="ad">원딜</option>
+                <option value="sp">서폿</option>
+                <option value="sp">상관없음</option>
+            </select>
+        </div>
+        <!-- 멤버 정보 영역 데이터 건들지 말기-->
             <div class = "member-info">
                 <div class = "member-tier">
                     <div class = "tier">
@@ -41,12 +59,54 @@
                         에메랄드 4
                     </div>
                     <div class = "nick-name">
-                        Silver 
+                        빈차드#KR3 
                     </div>
                     <div class = "name">
-                        [성은총]
+                        [김현빈]
                     </div>
                 </div>
+
+                <div class = "member-info">
+                    <div class = "member-tier">
+                        <div class = "tier">
+                            <img src="/img/03.png" width="100px" height="90px" alt="">
+                            <div class = "line-info">
+                                <div><img src="/img/top.svg" width="30px" alt=""></div>
+                                <div><img src="/img/mid.svg" width="30px" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="tier-name">
+                            에메랄드 
+                        </div>
+                        <div class = "nick-name">
+                            빈차드#KR3
+                        </div>
+                        <div class = "name">
+                            [김현빈]
+                        </div>
+                    </div>
+
+                    <div class = "member-info">
+                        <div class = "member-tier">
+                            <div class = "tier">
+                                <img src="/img/03.png" width="100px" height="90px" alt="">
+                                <div class = "line-info">
+                                    <div><img src="/img/top.svg" width="30px" alt=""></div>
+                                    <div><img src="/img/mid.svg" width="30px" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="tier-name">
+                                에메랄드 4
+                            </div>
+                            <div class = "nick-name">
+                                빈차드#KR3 
+                            </div>
+                            <div class = "name">
+                                [김현빈]
+                            </div>
+                        </div>
+
+            <!-- 멤버 정보 영역 -->
         <!-- 사이드 작업완료 -->
 
             </div>
@@ -54,11 +114,11 @@
     <!-- 메인 작업 시작 -->
         <main>
             <h2>내전 현황판 팀밸런스</h2>
-            <div class = "fight-title"> 
-                <div class = "fight-tel">
-
+            <div class = "fight-title">
+                 <div class = "fight-tel">
+                    <img src="/img/back.jpg" alt="">
                 </div>
-            </div>
+            </div>        
         </main>
     </div>
     <footer>

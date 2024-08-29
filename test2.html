@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Filter 예시</title>
+</head>
+<body>
+    <style>
+        .search-container {
+          display: flex;
+          align-items: center;
+          max-width: 400px;
+          margin: 0 auto;
+          background-color: #f0f0f0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          padding: 8px;
+        }
+      
+        .search-container input[type=text] {
+          flex: 1;
+          border: none;
+          outline: none;
+          padding: 8px;
+          font-size: 16px;
+        }
+      
+        .search-container select {
+          border: none;
+          outline: none;
+          background-color: transparent;
+          padding: 8px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      </style>
+
+
+    <div style="display: inline-block;">
+        <input type="text" placeholder="검색어를 입력하세요">
+        <select>
+          <option value="">전체</option>
+          <option value="option1">옵션 1</option>
+          <option value="option2">옵션 2</option>
+          <option value="option3">옵션 3</option>
+        </select>
+      </div>
+      
+</body>
+</html>
